@@ -222,7 +222,7 @@ jobs:
     needs: build
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "logangeorge01.github.io"
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
